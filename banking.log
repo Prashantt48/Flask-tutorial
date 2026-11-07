@@ -1,0 +1,26 @@
+2026-10-22 13:21:34,078 - INFO - Customer registered: prashant
+2026-10-22 13:21:58,116 - ERROR - Unexpected banking system error
+Traceback (most recent call last):
+  File "c:\Users\PrashantYashwantTawd\OneDrive - kyndryl\Desktop\python practice\assignment day5\task2_Banking System.py", line 288, in main
+    customer = bank.get_customer(customer_id)
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'Bank' object has no attribute 'get_customer'. Did you mean '.add_customer' instead of '.get_customer'?
+2026-10-22 13:22:04,397 - ERROR - Unexpected banking system error
+Traceback (most recent call last):
+  File "c:\Users\PrashantYashwantTawd\OneDrive - kyndryl\Desktop\python practice\assignment day5\task2_Banking System.py", line 288, in main
+    customer = bank.get_customer(customer_id)
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'Bank' object has no attribute 'get_customer'. Did you mean '.add_customer' instead of '.get_customer'?
+2026-10-22 13:22:11,658 - ERROR - Unexpected banking system error
+Traceback (most recent call last):
+  File "c:\Users\PrashantYashwantTawd\OneDrive - kyndryl\Desktop\python practice\assignment day5\task2_Banking System.py", line 288, in main
+    customer = bank.get_customer(customer_id)
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'Bank' object has no attribute 'get_customer'. Did you mean '.add_customer' instead of '.get_customer'?
+2026-10-22 13:25:59,317 - INFO - Customer registered: prashant
+2026-10-22 13:26:10,013 - ERROR - Operation failed: Customer not found.
+2026-10-22 13:26:48,090 - INFO - Account created: 123456456
+2026-10-22 13:26:48,091 - INFO - Account registered: 123456456
+2026-10-22 13:27:06,564 - INFO - Account created: 123456456
+2026-10-22 13:27:06,565 - ERROR - Operation failed: Account number already exists.
+2026-10-22 13:27:26,880 - INFO - Deposit successful for account 123456456
